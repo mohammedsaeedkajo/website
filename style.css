@@ -274,6 +274,43 @@ article{
     #asideimg{
         width: 100%;
     }
+}
+@media only screen and (max-width:499px)
+{
+    header{
+        height: auto;
+    }
+    #logobox{
+        width: 100%;
+        text-align: center;
+    }
+    #titel,#logo{
+        float:none;
+    }
+    #logobox a{
+        text-decoration: none;
+    }
+    #logo{
+        width: 200px;
+    }
+    #navbar{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    aside img{
+        width: 100%;
+    }
+    footer{
+        clear: both;
+    }
+    article{
+        width: 100%;
+    }
+    #asideimg{
+        width: 100%;
+    }
     #navbar li{
         display: block;
         width: 100%;
